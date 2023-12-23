@@ -1,0 +1,19 @@
+- name: web
+  hosts: web
+  become: yes
+  tasks:
+    - name: install the nginx
+      ansible.builtin.package:
+        name: nginx
+        state: present
+
+    - name: start and enable nginx
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: yes
+    
+    - name: remove the server
+      ansible.builtin.file:
+        path: /usr/share/nginx/html/*
+        state: absent
