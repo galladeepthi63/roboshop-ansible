@@ -20,19 +20,19 @@
     
     - name: download web application
       ansible.builtin.get_url:
-      url: https://roboshop-builds.s3.amazonaws.com/web.zip
-      dest: /tmp
+        url: https://roboshop-builds.s3.amazonaws.com/web.zip
+        dest: /tmp
 
     - name: extract web application
       ansible.builtin.unarchive:
-      src: /tmp/web.zip
-      dest: /usr/share/nginx/html
-      remote_src: yes
+        src: /tmp/web.zip
+        dest: /usr/share/nginx/html
+        remote_src: yes
 
     - name: Copy roboshop service
       ansible.builtin.copy:
-      src: croboshop.conf
-      dest: /etc/nginx/default.d/roboshop.conf
+        src: croboshop.conf
+        dest: /etc/nginx/default.d/roboshop.conf
 
     - name: start and enable nginx
       ansible.builtin.service:
