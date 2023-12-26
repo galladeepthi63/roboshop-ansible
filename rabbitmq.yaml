@@ -1,7 +1,7 @@
-name: install rabbitmq component
-hosts: rabbitmq
-become: yes
-tasks:
+- name: install rabbitmq component
+  hosts: rabbitmq
+  become: yes
+  tasks:
   - name: install erlang
     ansible.builtin.shell: curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | bash
 
