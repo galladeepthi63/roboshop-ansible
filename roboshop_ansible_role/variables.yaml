@@ -1,4 +1,4 @@
 MONGODB_HOST: mongodb.ramakrishna.cloud
-CATALOGUE_HOST:
+CATALOGUE_HOST: catalogue.ramakrishna.cloud
 USER_HOST:
 CART_HOST:
