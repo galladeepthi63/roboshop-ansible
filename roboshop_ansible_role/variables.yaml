@@ -3,5 +3,6 @@ CATALOGUE_HOST: catalogue.ramakrishna.cloud
 USER_HOST: user.ramakrishna.cloud
 CART_HOST: cart.ramakrishna.cloud
 REDIS_HOST: redis.ramakrishna.cloud
-
+SHIPPING_HOST: shipping.ramakrishna.cloud
+PAYMENT_HOST: payment.ramakrishna.cloud
 
