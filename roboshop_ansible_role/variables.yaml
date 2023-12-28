@@ -5,4 +5,8 @@ CART_HOST: cart.ramakrishna.cloud
 REDIS_HOST: redis.ramakrishna.cloud
 SHIPPING_HOST: shipping.ramakrishna.cloud
 PAYMENT_HOST: payment.ramakrishna.cloud
+MYSQL_HOST: mysql.ramakrishna.cloud
+RABBITMQ_HOST: rabbitmq.ramakrishna.cloud
+#web: web.ramakrishna.cloud
+
 
