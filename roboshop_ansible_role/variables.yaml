@@ -7,6 +7,7 @@ SHIPPING_HOST: shipping.ramakrishna.cloud
 PAYMENT_HOST: payment.ramakrishna.cloud
 MYSQL_HOST: mysql.ramakrishna.cloud
 RABBITMQ_HOST: rabbitmq.ramakrishna.cloud
+DISPATCH_HOST: dispatch.ramakrishna.cloud
 #web: web.ramakrishna.cloud
 
 
